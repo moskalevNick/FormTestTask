@@ -1,0 +1,16 @@
+.btn {
+    width: 580px;
+    height: 40px;
+    background: rgb(255, 156, 8);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    opacity: .5;
+    background: grey;
+    cursor: progress;
+}
